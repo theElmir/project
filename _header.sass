@@ -1,0 +1,47 @@
+header
+    background-color: #212529
+    padding: 20px 0
+    z-index: 2
+    position: fixed
+    width: 100%
+    a
+        margin-right: 25px
+        font-size: 23px
+    & :hover
+        color: #ffc800
+        cursor: pointer
+    .box
+        border: 1px solid rgba(255, 255, 255, 0.1)
+        padding: 12px
+        border-radius: 7px
+        h1
+            color: rgba(255, 255, 255, 0.55)
+            font-size: 25px
+            margin-right: 10px
+        .icon
+            font-size: 25px
+            color: rgba(255, 255, 255, 0.55)
+    @media screen and ( max-width: 1024px )
+        nav
+            display: none
+        .box
+            display: block
+    @media screen and ( min-width: 1024px )
+        .box
+            display: none
+            position: absolute
+            right: 0
+            opacity: 0
+            h1,.icon
+                display: none
+        nav
+            display: block
+            a
+                font-size: 22px
+    @media screen and ( max-width: 576px )
+        .imgbox
+            width: 200px
+        .box
+            padding: 5px
+            .icon,h1 
+                font-size: 18px

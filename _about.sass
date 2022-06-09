@@ -1,0 +1,111 @@
+#about
+    padding: 100px 0
+    h1
+        font-size: 50px
+        font-weight: 700
+    h3
+        color: #6c757d
+        font-size: 28px
+        margin: 20px 0 30px
+    .imgbox
+        border: 7px solid #e9ecef
+        border-radius: 50%
+        width: 195px
+        margin: 0 -5px
+    .textbox
+        width: 43%
+        h2
+            font-weight: 700
+            font-size: 30px
+            margin: 10px 0
+        h4
+            font-size: 26px
+            line-height: 1.6
+            color: #6c757d
+    .txtright
+        text-align: right
+        padding-right: 40px
+    .txtleft
+        padding-left: 40px
+    .yellowbox
+        display: flex
+        justify-content: center
+        .txt
+            border: 7px solid #e9ecef
+            border-radius: 50%
+            padding: 49px 55px
+            color: #fff
+            background-color: #ffc800
+            font-size: 24px
+            font-weight: 700
+    @media screen and ( max-width: 576px )
+        h1
+            font-size: 30px
+        h3
+            font-size: 24px
+        .textbox
+            h2
+                font-size: 26px
+            h4
+                font-size: 22px
+        .imgbox
+            width: 150px
+    @media screen and ( max-width: 1000px )
+        h1
+            font-size: 40px
+        h3
+            font-size: 26px
+        .textbox
+            h2
+                font-size: 28px
+            h4
+                font-size: 24px
+        .imgbox
+            width: 180px
+    @media screen and ( max-width: 767px )
+        .box1,.box3
+            flex-direction: row-reverse
+        .textbox
+            width: auto
+            text-align: left
+            padding-left: 15px
+        .txtleft
+            padding-left: 20px
+        .txtright
+            padding-right: 0
+        .imgbox
+            width: 90px
+        .yellowbox
+            display: flex
+            justify-content: start
+            .txt
+                padding: 22px 26px
+                font-size: x-small
+    @media screen and ( min-width: 768px )
+        .imgbox
+            margin: 0 -40px
+        .txtright
+            padding-right: 56px
+        .txtleft
+            padding-left: 56px
+    @media screen and ( min-width: 992px )
+        .imgbox
+            margin: 0 -33px
+        .txtright
+            padding-right: 54px
+        .txtleft
+            padding-left: 54px
+    @media screen and ( min-width: 1200px )
+        .imgbox
+            margin: 0 -23px
+        .txtright
+            padding-right: 50px
+        .txtleft
+            padding-left: 50px
+    @media screen and ( min-width: 1400px )
+        .imgbox
+            margin: 0 -8px
+        .txtright
+            padding-right: 40px
+        .txtleft
+            padding-left: 40px
